@@ -5,7 +5,7 @@
  * file.
  */
 
-// фыв
+// фывфыв
 
 import Env from '@ioc:Adonis/Core/Env'
 import { OrmConfig } from '@ioc:Adonis/Lucid/Orm'
