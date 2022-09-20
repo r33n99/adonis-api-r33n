@@ -53,7 +53,10 @@ const databaseConfig: DatabaseConfig & { orm: Partial<OrmConfig> } = {
 			debug: false,
     },
 
+
+
   },
+
 
   /*
   |--------------------------------------------------------------------------
@@ -69,6 +72,8 @@ const databaseConfig: DatabaseConfig & { orm: Partial<OrmConfig> } = {
   */
   orm: {
   },
+  
 }
+
 
 export default databaseConfig
