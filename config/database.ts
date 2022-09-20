@@ -10,7 +10,7 @@ import { OrmConfig } from '@ioc:Adonis/Lucid/Orm'
 import { DatabaseConfig } from '@ioc:Adonis/Lucid/Database'
 
 const Url = require('url-parse')
-const DATABASE_URL = new URL(Env.get('DATABASE_URL'))
+const DATABASE_URL = new Url(Env.get('DATABASE_URL'))
 
 const databaseConfig: DatabaseConfig & { orm: Partial<OrmConfig> } = {
   /*
